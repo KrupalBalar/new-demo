@@ -10,3 +10,17 @@ console.log(null < 0);
 console.log(null <= 0);
 console.log(null == 0);
 console.log(null === 0);
+
+
+var userOne = {
+    name: 'abc',
+    number: 9737190021
+}
+
+var userTwo = userOne;
+
+userOne.name = 'Yash';
+
+console.log(userOne);
+console.log(userTwo);
+
